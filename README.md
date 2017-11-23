@@ -18,6 +18,7 @@ pip install simplejson
    
 Once done, edit the client run code to your discord API code.
 The AI is hosted on Google so it will be updated live when I edit it.
+Just do not share this with too many people otherwise the AI may crash due to the requests.
 
 # Version: 1.0
 No changes... just launch.
