@@ -5,7 +5,8 @@ import json
 import requests
 import apiai
 client = discord.Client()
-
+user = 'iX7bgNY7pj4BBLsb'
+key = 'Rs1syy4IJqRnufruCtR07zu6ZwiIx0Pz'
 CLIENT_ACCESS_TOKEN = 'b6d5e65c84a84d8b805fcdc276d2c57f'
 @client.event
 async def on_ready():
@@ -40,10 +41,10 @@ async def on_message(message):
       #  word = str(word)
       #  r = response.read()
        # print(response.read())
-
+        
         await client.send_message(message.channel, word)
-
+    
 print('Starting...')
-
-client.run('ENTER YOUR ID HERE')
+#requests.post('https://cleverbot.io/1.0/create', json={'user':user, 'key':key, 'nick':'frost'})
+client.run('MzgwOTM4NzYzMDIwNDAyNjk4.DO_4ZA.-KhSCrO0gcMYjc0T3reLaEY7uvk')
 quit()
