@@ -6,12 +6,12 @@ An A.I which is multiplatform.
 To setup you will need:
 1. Common Sense (etc: experience with Discord Bots and python.)
 2. Python 3.6 with the following installed:
-   Install these in CMD:
-   pip install discord
-   pip install requests
-   pip install asyncio
-   pip install apiai
-   pip install simplejson
+Install these in CMD:
+pip install discord
+pip install requests
+pip install asyncio
+pip install apiai
+pip install simplejson
    
    
 Once done, edit the client run code to your discord API code.
