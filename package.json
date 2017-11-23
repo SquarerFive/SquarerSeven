@@ -2,9 +2,9 @@
   "name": "SquarerSevenBot",
   "description": "Test",
   "version": "0.0.0",
-  "main": "bot.js",
+  "main": "SquarerSeven.py",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node SquarerSeven.py"
   },
   "dependencies": {
     "discord.js": "11.1.0",
